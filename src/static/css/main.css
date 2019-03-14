@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+#app,
+.wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'PingFang SC', "Helvetica Neue", Helvetica, "microsoft yahei", arial, STHeiTi, sans-serif;
+}
+
+a {
+    text-decoration: none
+}
+
+input::placeholder{
+    color: #c0c4cc;
+}
+
+
+.icon-clear-btn {
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    padding: 0.1rem;
+    font-size: 0.4rem;
+    color: #c0c4cc;
+}
